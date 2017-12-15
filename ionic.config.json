@@ -1,0 +1,8 @@
+{
+  "name": "ktv",
+  "app_id": "2cf8ade7",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
