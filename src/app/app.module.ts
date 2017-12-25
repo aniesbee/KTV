@@ -8,7 +8,7 @@ import {HttpClientModule, HttpClient} from '@angular/common/http'
 import { MyApp } from './app.component';
 import { AuthServiceProvider } from '../providers/auth-service/auth-service';
 import {VideoPlayer} from '@ionic-native/video-player'
-
+import { CommonProvider } from "../providers/common";
 
 @NgModule({
   declarations: [
@@ -29,6 +29,7 @@ import {VideoPlayer} from '@ionic-native/video-player'
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AuthServiceProvider,
+    CommonProvider,
     VideoPlayer
   ]
 })
