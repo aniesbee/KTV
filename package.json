@@ -54,8 +54,7 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "com.moust.cordova.videoplayer": {
-        "locator": "https://github.com/moust/cordova-plugin-videoplayer.git",
-        "id": "com.moust.cordova.videoplayer"
+        
       }
     },
     "platforms": [

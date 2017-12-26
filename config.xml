@@ -83,8 +83,6 @@
     <plugin name="cordova-plugin-device" spec="^1.1.4" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.16" />
-    <plugin name="com.moust.cordova.videoplayer" spec="1.0.1">
-        <variable name="locator" value="https://github.com/moust/cordova-plugin-videoplayer.git" />
-        <variable name="id" value="com.moust.cordova.videoplayer" />
+    <plugin name="com.moust.cordova.videoplayer" spec="^1.0.1">
     </plugin>
 </widget>
