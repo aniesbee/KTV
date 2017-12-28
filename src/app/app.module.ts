@@ -8,8 +8,8 @@ import { HttpModule } from "@angular/http";
 import {HttpClientModule} from '@angular/common/http'
 import { MyApp } from './app.component';
 import { AuthServiceProvider } from '../providers/auth-service/auth-service';
-import {VideoPlayer} from '@ionic-native/video-player'
-import { CommonProvider } from "../providers/common";
+
+
 
 @NgModule({
   declarations: [
@@ -29,9 +29,9 @@ import { CommonProvider } from "../providers/common";
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AuthServiceProvider,
-    CommonProvider,
-    VideoPlayer
+    AuthServiceProvider
+
+
   ]
 })
 export class AppModule {}
